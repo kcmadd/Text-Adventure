@@ -101,10 +101,9 @@ int main(void)
 	}
 	printf("Game over");
 	//deallocates memory below
-  free(user->position);
+  	free(user->position);
 	free(user->inventory);
 	free(user->list);
 	free(user);
-	free(startRoom);
 	return 0;
 }
